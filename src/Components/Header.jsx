@@ -8,7 +8,7 @@ const Header = () => {
           <div className="w-full flex justify-between items-center pt-4">
             <div className="w-16">
               <img
-                src="dist/logo.png"
+                src="/dist/logo.png"
                 alt="Logo de la empresa"
                 className="w-full"
               />
