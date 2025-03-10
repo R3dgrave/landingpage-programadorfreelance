@@ -26,7 +26,7 @@ const Home = () => {
             </Link>
           </div>
           <div className="w-full">
-            <img src="/bg-hero.webp" alt="" />
+            <img src="dist/bg-hero.webp" alt="" />
           </div>
         </div>
       </section>
@@ -48,13 +48,13 @@ const Home = () => {
               </ul>
             </>
           }
-          imageSrc="/bg-section-1.webp"
+          imageSrc="dist/bg-section-1.webp"
         />
         {/* Segunda sección: Velocidad y seguridad */}
         <SectionArticle
           title="Velocidad y seguridad en cada proyecto"
           text="Un sitio web lento o inseguro puede hacer que pierdas clientes. Desarrollo páginas rápidas y seguras con las mejores prácticas en optimización y protección de datos, garantizando una experiencia confiable para tus visitantes."
-          imageSrc="/bg-section-2.webp"
+          imageSrc="dist/bg-section-2.webp"
           reverse={true}
         />
 
@@ -62,7 +62,7 @@ const Home = () => {
         <SectionArticle
           title="Aumenta tu visibilidad y consigue más clientes"
           text="Un sitio web bien diseñado no solo se ve bien, sino que también está optimizado para aparecer en los primeros resultados de búsqueda en Google. Con estrategias de SEO, tu negocio será más visible y atraerá a más clientes potenciales."
-          imageSrc="/bg-section-1.webp"
+          imageSrc="dist/bg-section-1.webp"
         />
       </section>
       <AboutMe />
