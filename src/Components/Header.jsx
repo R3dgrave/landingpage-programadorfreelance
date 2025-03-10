@@ -6,7 +6,7 @@ const Header = () => {
           <div className="w-full flex justify-between items-center pt-4">
             <div className="w-16">
               <img
-                src="https://drive.google.com/file/d/1m_DL8iYzPqkd3nQoXnsudgdxzwoc3nIh/view?usp=drive_link"
+                src="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/src/assets/logo.png"
                 alt="Logo de la empresa"
                 className="w-full"
               />

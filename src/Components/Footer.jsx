@@ -5,7 +5,7 @@ const Footer = () => {
         <section>
           <p className="w-full flex items-center font-bold pb-10">
             <img
-              src="https://drive.google.com/file/d/1m_DL8iYzPqkd3nQoXnsudgdxzwoc3nIh/view"
+              src="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/src/assets/logo.png"
               alt=""
               className="w-10 mr-3"
             />
@@ -16,7 +16,7 @@ const Footer = () => {
           <p className="flex gap-2 items-center">
             <img
               className="w-11 pr-5"
-              src="https://drive.google.com/file/d/16fXm2_yj7PNOvmhrAqjYmjOefPfUuFpO/view?usp=drive_link"
+              src="https://raw.githubusercontent.com/R3dgrave/landingpage-programadorfreelance/refs/heads/main/src/assets/icon-location.svg"
               alt="icono de dirección"
             />
             Quilicura, Región Metropolitana
@@ -24,7 +24,7 @@ const Footer = () => {
           <p className="flex gap-2 justify-center items-center">
             <img
               className="w-11 pr-5"
-              src="https://drive.google.com/file/d/1ovdfPFtQ5AvVQ2hB80qVqeYkYDetcCMw/view?usp=drive_link"
+              src="https://raw.githubusercontent.com/R3dgrave/landingpage-programadorfreelance/refs/heads/main/src/assets/icon-phone.svg"
               alt="icono de teléfono"
             />
             +56-9-6565-6760
@@ -32,7 +32,7 @@ const Footer = () => {
           <p className="flex gap-2 justify-center items-center">
             <img
               className="w-11 pr-5"
-              src="https://drive.google.com/file/d/16gEHZfPbf2gMX1M4LD3KE5zvle-HvRdy/view?usp=drive_link"
+              src="https://raw.githubusercontent.com/R3dgrave/landingpage-programadorfreelance/refs/heads/main/src/assets/icon-email.svg"
               alt="icono de correo"
             />
             correo@correo.com

@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       {/*Seccion hero */}
-      <section className="w-full h-full max-h-dvh mx-auto gap-10 bg-no-repeat bg-[url('https://drive.google.com/file/d/13_3RW-s9JD5AaPiAwCNg5W59ihnTrODE/view?usp=drive_link')] md:bg-[url('https://drive.google.com/file/d/1ijfyDAflnCZ2DNiStRUIjjhOwhJkYoTq/view?usp=drive_link')] bg-[#eaf8fe]">
+      <section className="w-full h-full max-h-dvh mx-auto gap-10 bg-no-repeat bg-[url('https://raw.githubusercontent.com/R3dgrave/landingpage-programadorfreelance/refs/heads/main/src/assets/bg-hero-mobile.svg')] md:bg-[url('https://raw.githubusercontent.com/R3dgrave/landingpage-programadorfreelance/refs/heads/main/src/assets/bg-hero-desktop.svg')] bg-[#eaf8fe]">
         <div className="container mx-auto p-10 grid grid-cols-1 md:grid-cols-2 py-16 md:pt-6 md:pb-20">
           <div className="flex flex-col justify-center items-start gap-y-6">
             <h1 className="text-4xl md:text-5xl font-bold">
@@ -27,7 +27,7 @@ const Home = () => {
           </div>
           <div className="w-full">
             <img
-              src="https://drive.google.com/file/d/1mliX0VYw5K2FDZeJq1u22fxudmLvAZT9/view?usp=drive_link"
+              src="https://raw.githubusercontent.com/R3dgrave/landingpage-programadorfreelance/refs/heads/main/src/assets/bg-hero.webp"
               alt=""
             />
           </div>
@@ -51,13 +51,13 @@ const Home = () => {
               </ul>
             </>
           }
-          imageSrc="https://drive.google.com/file/d/1MPLekqY1xlWQpxXkoU9ujfjkHYUSJ1vg/view?usp=drive_link"
+          imageSrc="https://raw.githubusercontent.com/R3dgrave/landingpage-programadorfreelance/refs/heads/main/src/assets/bg-section-1.webp"
         />
         {/* Segunda sección: Velocidad y seguridad */}
         <SectionArticle
           title="Velocidad y seguridad en cada proyecto"
           text="Un sitio web lento o inseguro puede hacer que pierdas clientes. Desarrollo páginas rápidas y seguras con las mejores prácticas en optimización y protección de datos, garantizando una experiencia confiable para tus visitantes."
-          imageSrc="https://drive.google.com/file/d/1IOH3xVlZXfiJQxttG4CWt11Iu9jwqTVW/view?usp=drive_link"
+          imageSrc="https://raw.githubusercontent.com/R3dgrave/landingpage-programadorfreelance/refs/heads/main/src/assets/bg-section-2.webp"
           reverse={true}
         />
 
@@ -65,7 +65,7 @@ const Home = () => {
         <SectionArticle
           title="Aumenta tu visibilidad y consigue más clientes"
           text="Un sitio web bien diseñado no solo se ve bien, sino que también está optimizado para aparecer en los primeros resultados de búsqueda en Google. Con estrategias de SEO, tu negocio será más visible y atraerá a más clientes potenciales."
-          imageSrc="https://drive.google.com/file/d/1XM392kvs5FV2R9ZiZvRkDcCUuRdcFEBZ/view?usp=drive_link"
+          imageSrc="https://raw.githubusercontent.com/R3dgrave/landingpage-programadorfreelance/refs/heads/main/src/assets/bg-section-3.webp"
         />
       </section>
       <AboutMe />
