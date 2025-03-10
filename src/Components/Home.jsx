@@ -19,7 +19,7 @@ const Home = () => {
               clientes.
             </p>
             <a
-              href="/contacto"
+              href="#"
               className="bg-[#4ac48e] uppercase mx-auto md:mx-0 py-4 px-14 md:px-28 rounded-xl bg-blue text-white font-bold hover:bg-[#4ab989]"
             >
               Contactame

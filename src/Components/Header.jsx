@@ -12,7 +12,7 @@ const Header = () => {
               />
             </div>
             <a
-              href="/"
+              href="#"
               className="p-4 text-white bg-[#4ac48e] hover:bg-[#4ab989] px-8 md:px-12 transition-all rounded-xl font-bold uppercase"
             >
               Contactame
