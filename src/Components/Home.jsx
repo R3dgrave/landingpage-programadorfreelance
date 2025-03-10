@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom";
 import SectionArticle from "../Components/SectionArticle";
 import AboutMe from "./AboutMe";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
     <>
       {/*Seccion hero */}
-      <section className="w-full h-full max-h-dvh mx-auto gap-10 bg-no-repeat bg-[url('https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/bg-hero-mobile.svg')] md:bg-[url('https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/bg-hero-desktop.svg')] bg-[#eaf8fe]">
+      <section className="w-full h-full max-h-dvh mx-auto gap-10 bg-no-repeat bg-[url('https://drive.google.com/file/d/13_3RW-s9JD5AaPiAwCNg5W59ihnTrODE/view?usp=drive_link')] md:bg-[url('https://drive.google.com/file/d/1ijfyDAflnCZ2DNiStRUIjjhOwhJkYoTq/view?usp=drive_link')] bg-[#eaf8fe]">
         <div className="container mx-auto p-10 grid grid-cols-1 md:grid-cols-2 py-16 md:pt-6 md:pb-20">
           <div className="flex flex-col justify-center items-start gap-y-6">
             <h1 className="text-4xl md:text-5xl font-bold">
@@ -18,16 +18,16 @@ const Home = () => {
               rápida y optimizada para que tu negocio crezca y llegue a más
               clientes.
             </p>
-            <Link
-              to="/contacto"
+            <a
+              href="/contacto"
               className="bg-[#4ac48e] uppercase mx-auto md:mx-0 py-4 px-14 md:px-28 rounded-xl bg-blue text-white font-bold hover:bg-[#4ab989]"
             >
               Contactame
-            </Link>
+            </a>
           </div>
           <div className="w-full">
             <img
-              src="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/bg-hero.webp"
+              src="https://drive.google.com/file/d/1mliX0VYw5K2FDZeJq1u22fxudmLvAZT9/view?usp=drive_link"
               alt=""
             />
           </div>
@@ -51,13 +51,13 @@ const Home = () => {
               </ul>
             </>
           }
-          imageSrc="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/bg-section-1.webp"
+          imageSrc="https://drive.google.com/file/d/1MPLekqY1xlWQpxXkoU9ujfjkHYUSJ1vg/view?usp=drive_link"
         />
         {/* Segunda sección: Velocidad y seguridad */}
         <SectionArticle
           title="Velocidad y seguridad en cada proyecto"
           text="Un sitio web lento o inseguro puede hacer que pierdas clientes. Desarrollo páginas rápidas y seguras con las mejores prácticas en optimización y protección de datos, garantizando una experiencia confiable para tus visitantes."
-          imageSrc="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/bg-section-2.webp"
+          imageSrc="https://drive.google.com/file/d/1IOH3xVlZXfiJQxttG4CWt11Iu9jwqTVW/view?usp=drive_link"
           reverse={true}
         />
 
@@ -65,10 +65,11 @@ const Home = () => {
         <SectionArticle
           title="Aumenta tu visibilidad y consigue más clientes"
           text="Un sitio web bien diseñado no solo se ve bien, sino que también está optimizado para aparecer en los primeros resultados de búsqueda en Google. Con estrategias de SEO, tu negocio será más visible y atraerá a más clientes potenciales."
-          imageSrc="/dist/bg-section-1.webp"
+          imageSrc="https://drive.google.com/file/d/1XM392kvs5FV2R9ZiZvRkDcCUuRdcFEBZ/view?usp=drive_link"
         />
       </section>
       <AboutMe />
+      <Contact />
     </>
   );
 };

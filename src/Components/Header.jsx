@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Header = () => {
   return (
     <>
@@ -8,17 +6,17 @@ const Header = () => {
           <div className="w-full flex justify-between items-center pt-4">
             <div className="w-16">
               <img
-                src="/dist/logo.png"
+                src="https://drive.google.com/file/d/1m_DL8iYzPqkd3nQoXnsudgdxzwoc3nIh/view?usp=drive_link"
                 alt="Logo de la empresa"
                 className="w-full"
               />
             </div>
-            <Link
-              to="/contacto"
+            <a
+              href="/"
               className="p-4 text-white bg-[#4ac48e] hover:bg-[#4ab989] px-8 md:px-12 transition-all rounded-xl font-bold uppercase"
             >
               Contactame
-            </Link>
+            </a>
           </div>
         </div>
       </header>

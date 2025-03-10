@@ -1,26 +1,11 @@
-import { Link } from "react-router-dom";
-
 const Footer = () => {
   return (
-    <div className="bg-[#00252e] w-full pt-52 pb-20 pl-6 text-white relative shadow-2xl">
-      {/* Contenedor que sobresale */}
-      <div className="w-[80%] lg:w-[40%] absolute -top-10 left-1/2 -translate-x-1/2 bg-white p-6 rounded-xl z-10 shadow-2xl">
-        <div className="flex flex-col text-black text-center">
-          <p className="text-2xl mb-6">¿Listo para empezar?</p>
-          <Link
-            to="/contacto"
-            className="bg-[#4ac48e] text-lg uppercase py-4 px-14 md:mx-20 rounded-xl text-white font-bold hover:bg-[#4ab989]"
-          >
-            Contáctame
-          </Link>
-        </div>
-      </div>
-
+    <div className="bg-[#00252e] w-full pt-20 pb-20 pl-6 text-white shadow-2xl">
       <div className="flex flex-col md:flex-row justify-between px-6 items-start md:w-full lg:w-3/4 lg:mx-auto">
         <section>
           <p className="w-full flex items-center font-bold pb-10">
             <img
-              src="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/logo.png"
+              src="https://drive.google.com/file/d/1m_DL8iYzPqkd3nQoXnsudgdxzwoc3nIh/view"
               alt=""
               className="w-10 mr-3"
             />
@@ -31,7 +16,7 @@ const Footer = () => {
           <p className="flex gap-2 items-center">
             <img
               className="w-11 pr-5"
-              src="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/icon-location.svg"
+              src="https://drive.google.com/file/d/16fXm2_yj7PNOvmhrAqjYmjOefPfUuFpO/view?usp=drive_link"
               alt="icono de dirección"
             />
             Quilicura, Región Metropolitana
@@ -39,7 +24,7 @@ const Footer = () => {
           <p className="flex gap-2 justify-center items-center">
             <img
               className="w-11 pr-5"
-              src="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/icon-phone.svg"
+              src="https://drive.google.com/file/d/1ovdfPFtQ5AvVQ2hB80qVqeYkYDetcCMw/view?usp=drive_link"
               alt="icono de teléfono"
             />
             +56-9-6565-6760
@@ -47,7 +32,7 @@ const Footer = () => {
           <p className="flex gap-2 justify-center items-center">
             <img
               className="w-11 pr-5"
-              src="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/icon-email.svg"
+              src="https://drive.google.com/file/d/16gEHZfPbf2gMX1M4LD3KE5zvle-HvRdy/view?usp=drive_link"
               alt="icono de correo"
             />
             correo@correo.com
