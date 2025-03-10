@@ -19,7 +19,11 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between px-6 items-start md:w-full lg:w-3/4 lg:mx-auto">
         <section>
           <p className="w-full flex items-center font-bold pb-10">
-            <img src="/dist/logo.png" alt="" className="w-10 mr-3" />
+            <img
+              src="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/logo.png"
+              alt=""
+              className="w-10 mr-3"
+            />
             Diego Abanto Mendoza
           </p>
         </section>
@@ -27,7 +31,7 @@ const Footer = () => {
           <p className="flex gap-2 items-center">
             <img
               className="w-11 pr-5"
-              src="/dist/icon-location.svg"
+              src="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/icon-location.svg"
               alt="icono de dirección"
             />
             Quilicura, Región Metropolitana
@@ -35,7 +39,7 @@ const Footer = () => {
           <p className="flex gap-2 justify-center items-center">
             <img
               className="w-11 pr-5"
-              src="/dist/icon-phone.svg"
+              src="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/icon-phone.svg"
               alt="icono de teléfono"
             />
             +56-9-6565-6760
@@ -43,7 +47,7 @@ const Footer = () => {
           <p className="flex gap-2 justify-center items-center">
             <img
               className="w-11 pr-5"
-              src="/dist/icon-email.svg"
+              src="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/icon-email.svg"
               alt="icono de correo"
             />
             correo@correo.com

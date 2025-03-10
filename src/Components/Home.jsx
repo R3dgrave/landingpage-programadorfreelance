@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       {/*Seccion hero */}
-      <section className="w-full h-full max-h-dvh mx-auto gap-10 bg-no-repeat bg-[url('src/assets/bg-hero-mobile.svg')] md:bg-[url('src/assets/bg-hero-desktop.svg')] bg-[#eaf8fe]">
+      <section className="w-full h-full max-h-dvh mx-auto gap-10 bg-no-repeat bg-[url('https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/bg-hero-mobile.svg')] md:bg-[url('https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/bg-hero-desktop.svg')] bg-[#eaf8fe]">
         <div className="container mx-auto p-10 grid grid-cols-1 md:grid-cols-2 py-16 md:pt-6 md:pb-20">
           <div className="flex flex-col justify-center items-start gap-y-6">
             <h1 className="text-4xl md:text-5xl font-bold">
@@ -26,7 +26,10 @@ const Home = () => {
             </Link>
           </div>
           <div className="w-full">
-            <img src="/dist/bg-hero.webp" alt="" />
+            <img
+              src="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/bg-hero.webp"
+              alt=""
+            />
           </div>
         </div>
       </section>
@@ -48,13 +51,13 @@ const Home = () => {
               </ul>
             </>
           }
-          imageSrc="/dist/bg-section-1.webp"
+          imageSrc="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/bg-section-1.webp"
         />
         {/* Segunda sección: Velocidad y seguridad */}
         <SectionArticle
           title="Velocidad y seguridad en cada proyecto"
           text="Un sitio web lento o inseguro puede hacer que pierdas clientes. Desarrollo páginas rápidas y seguras con las mejores prácticas en optimización y protección de datos, garantizando una experiencia confiable para tus visitantes."
-          imageSrc="/dist/bg-section-2.webp"
+          imageSrc="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/public/bg-section-2.webp"
           reverse={true}
         />
 
