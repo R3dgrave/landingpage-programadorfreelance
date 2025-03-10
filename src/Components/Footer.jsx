@@ -5,7 +5,7 @@ const Footer = () => {
         <section>
           <p className="w-full flex items-center font-bold pb-10">
             <img
-              src="https://github.com/R3dgrave/landingpage-programadorfreelance/blob/main/src/assets/logo.png"
+              src="https://raw.githubusercontent.com/R3dgrave/landingpage-programadorfreelance/refs/heads/main/src/assets/logo.webp"
               alt=""
               className="w-10 mr-3"
             />
